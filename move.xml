@@ -10,11 +10,15 @@
                   <block type="robot_delay" id="129" inline="true">
                     <value name="DELAY">
                       <block type="math_number" id="136">
-                        <field name="NUM">1000</field>
+                        <field name="NUM">1</field>
                       </block>
                     </value>
                     <next>
-                      <block type="movement_stop" id="5"></block>
+                      <block type="movement_forward" id="146">
+                        <next>
+                          <block type="movement_reverse" id="156"></block>
+                        </next>
+                      </block>
                     </next>
                   </block>
                 </next>
