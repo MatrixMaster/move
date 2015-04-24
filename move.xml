@@ -1,35 +1,35 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="25" x="423" y="183">
+  <block type="movement_forward" id="1" x="423" y="183">
     <next>
-      <block type="movement_reverse" id="35">
+      <block type="movement_reverse" id="2">
         <next>
-          <block type="movement_left" id="45">
+          <block type="movement_left" id="3">
             <next>
-              <block type="movement_right" id="56">
+              <block type="movement_right" id="4">
                 <next>
-                  <block type="robot_delay" id="129" inline="true">
+                  <block type="robot_delay" id="5" inline="true">
                     <value name="DELAY">
-                      <block type="math_number" id="136">
+                      <block type="math_number" id="6">
                         <field name="NUM">1000</field>
                       </block>
                     </value>
                     <next>
-                      <block type="movement_forward" id="146">
+                      <block type="movement_forward" id="7">
                         <next>
-                          <block type="movement_reverse" id="156">
+                          <block type="movement_reverse" id="8">
                             <next>
-                              <block type="robot_delay" id="181" inline="true">
+                              <block type="robot_delay" id="9" inline="true">
                                 <value name="DELAY">
-                                  <block type="math_number" id="188">
+                                  <block type="math_number" id="10">
                                     <field name="NUM">1000</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="movement_left" id="199">
+                                  <block type="movement_left" id="11">
                                     <next>
-                                      <block type="movement_right" id="209">
+                                      <block type="movement_right" id="12">
                                         <next>
-                                          <block type="movement_stop" id="179"></block>
+                                          <block type="movement_stop" id="13"></block>
                                         </next>
                                       </block>
                                     </next>
